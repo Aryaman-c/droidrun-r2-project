@@ -5,7 +5,7 @@ from droidrun import DroidAgent, DroidrunConfig, AgentConfig, AdbTools
 from llama_index.llms.openai_like import OpenAILike
 
 async def main():
-    api_key = "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"
+    api_key = " "
     api_base = "https://openrouter.ai/api/v1"
     model = "google/gemini-2.0-flash-001"
     
@@ -31,3 +31,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
